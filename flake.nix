@@ -10,7 +10,7 @@
         {
           packages = {
             default = pkgs.rustPlatform.buildRustPackage {
-              name = "switch-outputs";
+              name = "sway-switch-outputs";
               src = src;
               cargoLock = {
                 lockFile = "${src}/Cargo.lock";
